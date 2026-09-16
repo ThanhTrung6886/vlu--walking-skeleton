@@ -23,6 +23,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 });
 
 // Cho phép Jest sử dụng hàm login
-if (typeof module !== "undefined") {
+if (typeof document !== "undefined") {
     module.exports = login;
 }
