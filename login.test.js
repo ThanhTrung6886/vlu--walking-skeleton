@@ -9,5 +9,5 @@ test("Đăng nhập sai mật khẩu", () => {
 });
 
 test("Đăng nhập sai tài khoản", () => {
-    expect(login("user", "123")).toBe(false);
+    expect(login("user", "1234")).toBe(false);
 });
