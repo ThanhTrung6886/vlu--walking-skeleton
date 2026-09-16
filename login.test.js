@@ -1,7 +1,7 @@
 const login = require("./login");
 
 test("Đăng nhập đúng tài khoản và mật khẩu", () => {
-    expect(login("admin", "1234")).toBe(true);
+    expect(login("admin", "123")).toBe(true);
 });
 
 test("Đăng nhập sai mật khẩu", () => {
